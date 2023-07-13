@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/formFragment">
+    <fragment
+        android:id="@+id/formFragment"
+        tools:layout="@layout/fragment_form"
+        android:name="com.nagarro.mohitdemo.presentation.login.LoginFragment"
+        android:label="FormFragment" >
+        <action
+            android:id="@+id/action_formFragment_to_movieFragment"
+            app:destination="@id/movieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieFragment"
+        tools:layout="@layout/fragment_list_movie"
+        android:name="com.nagarro.mohitdemo.presentation.movie.MovieListFragment"
+        android:label="MovieFragment">
+    </fragment>
+
+
+
+</navigation>
