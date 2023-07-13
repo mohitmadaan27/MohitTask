@@ -6,6 +6,9 @@
 
 1.0
 
+![image](https://user-images.githubusercontent.com/13434527/253275743-2d5e2b26-5885-40d5-b68f-4cf1be7a1d55.png)
+![image](https://user-images.githubusercontent.com/13434527/253275760-81f87c0b-7016-4773-9e22-7c0b62489bcb.png)
+
 ## Prerequisites
 
 - Android Studio
